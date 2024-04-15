@@ -44,68 +44,13 @@ body {
     position: absolute;
     top: 3.5em;
     left: 0;
-}
-
-.menu ul li:hover>ul>li {
     display: block;
 }
-/* 
 
-
-home2
-
-
-*/
-.menu>ul>li>p {
-    font-size: large;
-    color: white;
-}
-
-.menu ul {
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.menu ul li {
-    list-style: none;
-    display: inline-block;
-    min-width: 70px;
-    background-color: darkgreen;
-    text-align: center;
-    padding: 1px 30px;
-}
-
-.menu>ul ul {
-    display: none;
-}
-
-.menu ul li:hover {
-    background-color: darkslategray;
-}
-
-.menu ul li:hover>ul {
-    display: initial;
-    position: absolute;
-    top: 3.5em;
-    left: 0;
-}
-
-.menu ul li:hover>ul>li>ul>li{
+.menu>ul>li:hover>ul>li {
     display: block;
-    position: absolute;
-    left: 134px;
-    top: -52px;
 }
-.menu ul li:hover>ul>li>ul>li>ul>li{
-    display: block;
-    position: absolute;
-    left: 124px;
-    top: -30px;
-}
-.menu ul li:hover>ul>li>ul>li>ul>li>ul>li{
-    display: block;
-    position: absolute;
-    left: 124px;
-    top: -30px;
+
+.menu>ul>li>ul>li:hover>ul>li {
+    margin-left: 130px;
 }
